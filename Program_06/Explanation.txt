@@ -1,0 +1,18 @@
+This program demonstrates the use of a **constructor and destructor** in C++.
+
+The `Demo` class contains a constructor named `Demo()` and a destructor named `~Demo()`.
+
+When the object `obj` is created inside the `main()` function, the constructor is automatically called and displays **"Constructor called"**.
+
+When the program reaches the end of `main()`, the object is destroyed automatically. At this point, the destructor is called and displays **"Destructor called"**.
+
+Therefore, the constructor is executed when the object is created, while the destructor is executed when the object is destroyed.
+
+**Output:**
+
+```text
+Constructor called
+Destructor called
+```
+
+Thus, the program demonstrates the automatic execution of a constructor during object creation and a destructor during object destruction.
