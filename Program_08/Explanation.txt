@@ -1,0 +1,18 @@
+This program demonstrates the use of an **inline function and a friend function** in C++.
+
+The `Demo` class contains a private data member `x`. The constructor initializes `x` with the value passed when the object is created.
+
+The `show()` function is declared as an **inline function**. It is used to display the value of the private member `x`.
+
+The `display()` function is declared as a **friend function** using the `friend` keyword. A friend function is not a member of the class, but it can access the private members of the class.
+
+In the `main()` function, the object `obj` is created with the value `10`. The `show()` function displays the value of `x`, and then the `display()` friend function accesses and displays the same private value.
+
+**Output:**
+
+```text
+x = 10
+Friend function: 10
+```
+
+Thus, the program demonstrates how an inline function can be used for a class operation and how a friend function can access private data of a class.
