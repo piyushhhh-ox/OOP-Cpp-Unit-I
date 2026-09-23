@@ -1,0 +1,23 @@
+This program demonstrates the use of a **static data member** in C++.
+
+The `Counter` class contains a static variable named `count`. A static data member is shared by all objects of the class.
+
+The constructor increases `count` by 1 whenever an object is created.
+
+In the `main()` function, three objects are created:
+
+* `c1`
+* `c2`
+* `c3`
+
+Each object calls the constructor, so the value of `count` increases from 0 to 3.
+
+The statement `Counter::count` is used to access the static member using the class name and scope resolution operator.
+
+**Output:**
+
+```text
+Objects created: 3
+```
+
+Thus, the program demonstrates how a static member is shared among all objects of a class and can be used to keep track of the number of objects created.
