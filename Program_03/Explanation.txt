@@ -1,0 +1,17 @@
+This program demonstrates the use of an array and a for loop in C++. It stores and displays the marks of five students.
+
+The program starts by including the iostream header file and using the std namespace to use cout.
+
+Inside the main() function, an integer array named marks is created with five elements. The array stores the values 78, 82, 91, 67, and 88.
+
+A for loop is then used to access and display each element of the array. The variable i starts from 0 because array indexing in C++ begins at 0. The loop continues while i < 5, so all five elements are accessed.
+
+marks[i] is used to access the element at the current index. After displaying each mark, " " provides a space between the values.
+
+Finally, return 0 terminates the program successfully.
+
+Output:
+
+78 82 91 67 88
+
+The program therefore demonstrates array storage, array indexing, and repetition using a for loop.
