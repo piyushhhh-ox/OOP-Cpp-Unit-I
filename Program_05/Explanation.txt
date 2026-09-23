@@ -1,0 +1,17 @@
+This program demonstrates the use of a **class and object** in C++ to store and display student details.
+
+The `Student` class is created as a blueprint for storing student information. It contains two data members: `name` to store the student's name and `age` to store the student's age.
+
+The `show()` member function is used to display the stored student details.
+
+Inside the `main()` function, an object named `s1` is created from the `Student` class. The name and age are assigned to the object using the dot (`.`) operator:
+
+* `s1.name = "Amit";`
+* `s1.age = 20;`
+
+Finally, `s1.show()` calls the member function and displays the student's name and age.
+
+**Output:**
+`Amit 20`
+
+Thus, the program demonstrates how a class defines the structure and an object is used to access its data and functions.
