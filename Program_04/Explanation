@@ -1,0 +1,17 @@
+This program demonstrates the use of functions in C++ by creating a function named add() to calculate the sum of two numbers.
+
+The program first includes the iostream header file for output and uses the std namespace.
+
+Before the main() function, the statement int add(int, int); is written. This is called a function prototype. It informs the compiler that an add() function exists and accepts two integer parameters.
+
+Inside main(), two integer variables, a and b, are declared with the values 10 and 20.
+
+The statement add(a, b) calls the add() function and passes the values of a and b to it. These values are received by the parameters x and y.
+
+The add() function adds x and y and returns the result using the return statement. The returned value is then displayed using cout.
+
+Output:
+
+Sum = 30
+
+Thus, the program demonstrates function declaration, function calling, parameters, return value, and function definition in C++.
