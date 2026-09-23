@@ -1,0 +1,17 @@
+This program demonstrates the use of the if-else selection statement in C++. It checks whether a student has passed or failed based on their marks.
+
+The program starts by including the iostream header file and using the std namespace so that cout can be used directly.
+
+Inside the main() function, an integer variable named marks is declared and assigned the value 45.
+
+The if statement checks whether the marks are greater than or equal to 40 using the >= operator. Since 45 >= 40 is true, the statement inside the if block is executed and "Pass" is displayed.
+
+If the condition were false, the else block would execute and "Fail" would be displayed.
+
+Finally, return 0 terminates the program successfully.
+
+Output:
+
+Pass
+
+The program therefore demonstrates conditional decision-making using if-else in C++.
