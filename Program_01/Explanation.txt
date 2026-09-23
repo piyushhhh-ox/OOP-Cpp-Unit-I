@@ -1,0 +1,21 @@
+This program demonstrates the use of basic data types in C++ by storing and displaying a student's roll number, grade, and fee amount.
+
+The program begins by including the iostream header file, which provides input and output functions such as cout. The using namespace std statement allows the program to use standard C++ objects such as cout and endl without writing std:: before them.
+
+Inside the main() function, three variables are declared:
+
+roll is an int variable that stores the whole-number roll number 101.
+grade is a char variable that stores the single character 'A'.
+fee is a float variable that stores the decimal fee amount 12500.50.
+
+The cout statements are then used to display these values on the screen. endl moves the cursor to the next line after each output.
+
+Finally, return 0 terminates the main() function and indicates that the program has executed successfully.
+
+Output:
+
+Roll No: 101
+Grade: A
+Fee: 12500.5
+
+This program therefore demonstrates the basic use of int, char, float, variables, cout, and endl in C++.
